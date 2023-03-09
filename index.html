@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The BMW Cave</title>
+    <link rel="icon" href="assets/icon/bmw_icon.png" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <!--Navigation-->
+  <header>
+    <nav class="grid nav">
+      <a href="index.html"
+        ><div class="grid-item">
+          <h1>Home</h1>
+        </div></a
+      >
+      <a href="index.html"
+        ><div class="grid-item">
+          <h1>BMW</h1>
+        </div></a
+      >
+      <a href="index.html"
+        ><div class="grid-item">
+          <h1>Location</h1>
+        </div></a
+      >
+    </nav>
+  </header>
+
+  <body>
+    <!--Everything within the body is treated as a grid through the article tag-->
+    <article class="grid">
+      <div class="grid-item par">
+        <h1>The BMW Cave, literally about one BMW...</h1>
+      </div>
+      <div class="grid-item par">
+        <p>
+          Welcome to the BMW vault. It's literally just about a blue BMW. If you
+          are a BMW lover this is the place for you. This one is blue, shiny,
+          and carries over 300 horsepower! That's a lot of horses! The plate on
+          the front shows that this car is foreign, but you can get one of these
+          almost anywhere in the world!
+        </p>
+      </div>
+      <!--Srcsets begin here-->
+      <div class="grid-item">
+        <img
+          src="assets/images/bmw.jpg"
+          srcset="
+            assets/images/bmw1200px.jpg 2400w,
+            assets/images/bmw900px.jpg  1800w,
+            assets/images/bmw600px.jpg  1200w,
+            assets/images/bmw300px.jpg   600w
+          "
+          sizes="100%"
+          alt="A shiny blue BMW on the road."
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="assets/images/bmw.jpg"
+          srcset="
+            assets/images/bmw1200px.jpg 2400w,
+            assets/images/bmw900px.jpg  1800w,
+            assets/images/bmw600px.jpg  1200w,
+            assets/images/bmw300px.jpg   600w
+          "
+          sizes="100%"
+          alt="A shiny blue BMW on the road."
+        />
+      </div>
+
+      <div class="grid-item">
+        <img
+          src="assets/images/bmw.jpg"
+          srcset="
+            assets/images/bmw1200px.jpg 2400w,
+            assets/images/bmw900px.jpg  1800w,
+            assets/images/bmw600px.jpg  1200w,
+            assets/images/bmw300px.jpg   600w
+          "
+          sizes="100%"
+          alt="A shiny blue BMW on the road."
+        />
+      </div>
+
+      <!--Different fun facts division-->
+      <div class="grid-item par">
+        <h2>Fun Facts about BMWS</h2>
+      </div>
+      <div class="grid-item par">
+        <p>
+          BMW was initially a manufacturer of airplane engines and a good one at
+          that. The company set records in aviation for both altitude and speed,
+          making key advancements in the industry before making the switch to
+          the auto industry.
+        </p>
+        <p>
+          Originally named Bayerische Flugzeugwerke or “BFW,” meaning Bavarian
+          plane manufacturing, the company changed its name to Bayerische
+          Motoren Werke (BMW) in 1917.
+        </p>
+        <a
+          href="https://www.modacars.net/facts-about-bmw"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><u>Source here</u></a
+        >
+      </div>
+    </article>
+  </body>
+</html>
